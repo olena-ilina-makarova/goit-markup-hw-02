@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-Домашня робота HTML+CSS_2
+# goit-markup-hw-01
+Домашня робота HTML+CSS
