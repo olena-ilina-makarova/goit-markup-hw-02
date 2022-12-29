@@ -1,0 +1,72 @@
+body {
+  background-color: #ffffff;
+  color: #434455;
+}
+.logo {
+  color: #2e2f42;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.accent {
+  color: #4d5ae5;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo:hover,
+.logo:focus {
+  color: aqua;
+}
+
+/* site nav */
+
+.site-nav .link {
+  color: #2e2f42;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: aqua;
+}
+
+.auth-nav .link {
+  color: #2e2f42;
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: aqua;
+}
+
+/* Hero */
+
+.hero-title {
+  background-color: aquamarine;
+  color: #ffffff;
+}
+
+/* Section */
+
+.section-title {
+  color: #2e2f42;
+}
+
+/* Benefits */
+
+.benefits .tittle {
+}
+
+/* Navigation & heading text NAVY BLUE #2E2F42 */
+/* Body text SLATE #434455 */
+/* Accent IRIS #4D5AE5*/
+/* Hero text WHITE #FFFFFF */
+/* Secondary background color CLOUD #F4F4FD*/
