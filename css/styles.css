@@ -8,10 +8,11 @@
   --accent-color: #4d5ae5;
   --body-text: #434455;
   --heading-text: #2e2f42;
+  --primary-wh-color: #ffffff;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--primary-wh-color);
   color: var(--body-text);
 }
 .logo {
@@ -50,6 +51,10 @@ a:hover {
   color: var(--accent-color);
 }
 
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 .auth-nav .link {
   color: var(--heading-text);
 }
@@ -66,14 +71,24 @@ a:hover {
   color: #ffffff;
 }
 
+.batton {
+  color: var(--primary-wh-color);
+  background-color: var(--accent-color);
+}
+
 /* Section */
 
 .section-title {
-  color: #1923de;
+  color: var(--heading-text);
 }
 
 /* Features */
 
 .features .title {
-  color: #2e2f42;
+  color: var(--heading-text);
 }
+/* Work examples */
+
+/* Our Team */
+
+/* Footer */
