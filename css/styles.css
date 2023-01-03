@@ -10,8 +10,8 @@
   --body-text: #434455;
   --heading-text: #2e2f42;
   --primary-wh-color: #ffffff;
-  --primary-bcg-color: #2e2f42;
-  --secondary-bcg-color: #f4f4fd;
+  --primary-background-color: #2e2f42;
+  --secondary-background-color: #f4f4fd;
 }
 
 body {
@@ -70,8 +70,8 @@ a:hover {
 /* Hero */
 
 .hero-title {
-  background-color: aquamarine;
   color: #ffffff;
+  background-color: var(--primary-background-color);
 }
 
 .batton {
@@ -107,3 +107,13 @@ a:hover {
 /* Our Team */
 
 /* Footer */
+.footer-title {
+  color: #e7e9fc;
+  background-color: var(--primary-background-color);
+}
+
+.logo-footer {
+  color: #f4f4fd;
+}
+
+/* Portfolio buttons */
