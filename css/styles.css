@@ -2,6 +2,7 @@
 /* Body text SLATE #434455 */
 /* Accent IRIS #4D5AE5*/
 /* Hero text WHITE #FFFFFF */
+/* Primary background color NAVY BLUE #2E2F42 */
 /* Secondary background color CLOUD #F4F4FD*/
 
 :root {
@@ -9,6 +10,8 @@
   --body-text: #434455;
   --heading-text: #2e2f42;
   --primary-wh-color: #ffffff;
+  --primary-bcg-color: #2e2f42;
+  --secondary-bcg-color: #f4f4fd;
 }
 
 body {
@@ -84,6 +87,18 @@ a:hover {
 
 /* Features */
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 .features .title {
   color: var(--heading-text);
 }
