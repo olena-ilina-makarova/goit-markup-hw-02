@@ -17,7 +17,7 @@
 body {
   background-color: var(--primary-wh-color);
   color: var(--body-text);
-  font-family: "roboto", "sans-serif";
+  font-family: "roboto", sans-serif;
 }
 .logo {
   color: var(--heading-text);
