@@ -24,10 +24,6 @@ body {
   font-family: "raleway", sans-serif;
 }
 
-a {
-  text-decoration: none;
-}
-
 a:hover {
   text-decoration: underline;
 }
@@ -40,6 +36,10 @@ a:hover {
   list-style: none;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .logo:hover,
 .logo:focus {
   color: var(--accent-color);
@@ -48,6 +48,10 @@ a:hover {
 /* site nav */
 
 .site-nav .link-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--heading-text);
 }
 
@@ -60,7 +64,18 @@ a:hover {
   color: var(--accent-color);
 }
 
+/* site auth */
+
+/* .address {} */
+
+.auth-nav {
+  font-style: normal;
+}
+
 .auth-nav .link-mail {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--heading-text);
 }
 
@@ -80,14 +95,22 @@ a:hover {
 
 /* Hero */
 
+.hero {
+}
+
 .hero-title {
   color: #ffffff;
   background-color: var(--primary-background-color);
 }
 
 .batton {
-  color: var(--primary-wh-color);
   background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-wh-color);
 }
 
 /* Section */
