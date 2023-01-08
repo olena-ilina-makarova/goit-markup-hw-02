@@ -14,12 +14,12 @@
   --secondary-background-color: #f4f4fd;
   --bgk-btn: #404bbf;
 }
-
 body {
   background-color: var(--primary-wh-color);
   color: var(--body-text);
   font-family: "roboto", sans-serif;
 }
+
 .logo {
   font-family: "raleway", sans-serif;
   font-weight: 800;
@@ -161,6 +161,9 @@ a:hover {
 /* Work examples */
 
 /* Our Team */
+.pic {
+  background-color: var(--primary-wh-color);
+}
 
 .team {
   background-color: var(--secondary-background-color);
@@ -178,6 +181,40 @@ a:hover {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-text);
+}
+
+/* Portfolio buttons */
+
+button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--accent-color);
+}
+
+button:hover,
+button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-wh-color);
+}
+
+/* Portfolio img */
+.picture-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--heading-text);
+}
+
+.picture-subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Footer */
@@ -201,28 +238,4 @@ a:hover {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
-}
-
-/* Portfolio buttons */
-
-button {
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  color: var(--accent-color);
-}
-
-button:hover,
-button:focus {
-  background-color: var(--accent-color);
-  color: var(--primary-wh-color);
-}
-
-/* Portfolio img */
-
-.picture-title {
 }
