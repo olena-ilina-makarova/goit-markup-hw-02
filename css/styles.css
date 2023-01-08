@@ -12,6 +12,7 @@
   --primary-wh-color: #ffffff;
   --primary-background-color: #2e2f42;
   --secondary-background-color: #f4f4fd;
+  --bgk-btn: #404bbf;
 }
 
 body {
@@ -20,8 +21,13 @@ body {
   font-family: "roboto", sans-serif;
 }
 .logo {
-  color: var(--heading-text);
   font-family: "raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--heading-text);
 }
 
 a:hover {
@@ -66,8 +72,6 @@ a:hover {
 
 /* site auth */
 
-/* .address {} */
-
 .auth-nav {
   font-style: normal;
 }
@@ -96,11 +100,14 @@ a:hover {
 /* Hero */
 
 .hero {
+  background-color: var(--primary-background-color);
 }
 
 .hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   color: #ffffff;
-  background-color: var(--primary-background-color);
 }
 
 .batton {
@@ -113,13 +120,15 @@ a:hover {
   color: var(--primary-wh-color);
 }
 
-/* Section */
+/* Features */
 
 .section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--heading-text);
 }
-
-/* Features */
 
 .visually-hidden {
   position: absolute;
@@ -133,24 +142,87 @@ a:hover {
   clip-path: inset(50%);
   margin: -1px;
 }
-.features .title {
+
+.features-list .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--heading-text);
 }
+
+.features-subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text);
+}
+
 /* Work examples */
 
 /* Our Team */
 
+.team {
+  background-color: var(--secondary-background-color);
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--heading-text);
+}
+.team-subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text);
+}
+
 /* Footer */
-.footer-title {
-  color: #e7e9fc;
+
+.footer {
   background-color: var(--primary-background-color);
 }
 
 .logo-footer {
-  color: #f4f4fd;
   font-family: "raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.footer-subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
 }
 
 /* Portfolio buttons */
 
+button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--accent-color);
+}
+
+button:hover,
+button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-wh-color);
+}
+
 /* Portfolio img */
+
+.picture-title {
+}
